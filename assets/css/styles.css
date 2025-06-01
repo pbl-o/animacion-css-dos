@@ -35,11 +35,17 @@ body {
   height: 100dvh;
 }
 
+/*NAV*/
+
+.mobile-title{
+    margin-left: 1rem;;
+}
 
 /*ÁNIMACIÓN*/
 /*Animación título*/
 .teclas {
   opacity: 1;
+  margin-left: .9rem;;
 }
 
 .tecla-blanca {
@@ -202,6 +208,7 @@ li:hover {
   filter: invert(100%);
 }
 
+/*FOOTER*/
 /*Pie de Página*/
 .footer {
   background-color: black;
