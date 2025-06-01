@@ -31,24 +31,6 @@ body {
   height: 100dvh;
 }
 
-/*NAV*/
-
-/*Logo título*/
-.logo-brand {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  opacity: 0.05;
-  transition: all 0.3s ease-in-out;
-}
-
-.logo-brand:hover {
-  opacity: 1;
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-
 
 /*ÁNIMACIÓN*/
 /*Animación título*/
@@ -197,8 +179,8 @@ li:hover {
 .card img {
   object-fit: cover;
   object-position: center;
-  width: 16rem;
-  height: 16rem;
+  width: 15rem;
+  height: 15rem;
   padding: 1rem;
   border-radius: 20px;
 }
