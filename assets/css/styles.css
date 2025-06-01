@@ -35,10 +35,10 @@ body {
 
 /*Logo título*/
 .logo-brand {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
-  opacity: 0.7;
+  opacity: 0.05;
   transition: all 0.3s ease-in-out;
 }
 
@@ -144,6 +144,7 @@ body {
 .aside {
   background-color: #222;
 }
+
 
 .logo-menu {
   width: 1.8rem;
