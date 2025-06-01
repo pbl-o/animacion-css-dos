@@ -1,0 +1,147 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Danfo&family=Exile&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=WDXL+Lubrifont+TC&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+.wdxl-lubrifont-tc-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100dvh;
+    border: 1px #eee solid;
+    padding: 2rem 5rem;
+    border-radius: 9px;
+  
+}
+
+.tienda-info{
+    margin-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.tienda-info a{
+    text-decoration: none;
+    color:#333;
+    transition: all .3s ease-in-out;
+}
+
+.tienda-info a:hover{
+    color:#ddd;
+    letter-spacing: 2px;
+}
+
+.tienda-info ul{
+list-style-type: none;
+padding: 1rem;
+}
+
+.tienda-info li{
+    padding: .6rem;
+}
+
+
+
+/*ÁNIMACIÓN*/
+/*Animación título*/
+.teclas {
+  transform: scale(2);
+  transition: all .3s ease-in-out;
+}
+
+
+.tecla-blanca {
+  display: inline-block;
+  animation: tecleoblanco 0.5s infinite;
+  animation-direction: alternate;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 3px;
+  padding: 1rem 0.3rem;
+}
+.tecla-negra {
+  display: inline-block;
+  animation: tecleonegro 0.5s infinite;
+  animation-direction: alternate;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  border-radius: 3px;
+  padding: 1rem 0.3rem;
+}
+
+.teclas > :nth-child(1) {
+  animation-delay: 0.1s;
+} 
+.teclas > :nth-child(2) {
+  animation-delay: 0.5s;
+} 
+.teclas > :nth-child(3) {
+  animation-delay: 0.9s;
+} 
+.teclas > :nth-child(4) {
+  animation-delay: 1.3s;
+} 
+.teclas > :nth-child(5) {
+  animation-delay: 1.7s;
+} 
+.teclas > :nth-child(6) {
+  animation-delay: 1.2s;
+} 
+.teclas > :nth-child(7) {
+  animation-delay: 2.3s;
+} 
+.teclas > :nth-child(8) {
+  animation-delay: 0.7s;
+}
+.teclas > :nth-child(9) {
+  animation-delay: 0.9;
+} 
+.teclas > :nth-child(10) {
+  animation-delay: 0.9s;
+} 
+.teclas > :nth-child(11) {
+  animation-delay: 2.1s;
+} 
+.teclas > :nth-child(12) {
+  animation-delay: 0.3s;
+} 
+.teclas > :nth-child(13) {
+  animation-delay: 2.5s;
+}
+
+@keyframes tecleoblanco {
+  from {
+    transform: translateY(0) scale(0.9);
+  }
+
+  to {
+    transform: translateY(-7px) scale(0.8);
+    box-shadow: 2px 2px 3px black;
+  }
+}
+
+@keyframes tecleonegro {
+  from {
+    transform: translateY(0) scale(0.9);
+  }
+  to {
+    transform: translateY(7px) scale(0.8);
+    box-shadow: 2px 2px 3px black;
+  }
+}
